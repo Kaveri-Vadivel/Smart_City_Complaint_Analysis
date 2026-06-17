@@ -1,17 +1,18 @@
-Smart City Complaint Analysis
-Problem Statement
+# Smart City Complaint Analysis
+
+## Problem Statement
 
 Modern cities receive thousands of citizen complaints every day regarding road damage, water supply issues, garbage collection, street light failures, drainage problems, traffic congestion, and public safety concerns. As the volume of complaints increases, it becomes difficult for city authorities to manually monitor, track, and resolve issues efficiently.
 
 The objective of this project is to analyze smart city complaint data and develop an interactive analytics dashboard that helps city administrators identify complaint trends, evaluate department performance, detect complaint hotspots, and improve service delivery through data-driven decision-making.
 
-Dataset Description
+## Dataset Description
 
 This project uses a Smart City Complaint Dataset containing approximately 210,000 complaint records. The dataset includes information related to complaint categories, responsible departments, complaint priority levels, complaint status, complaint dates, resolution time, and geographic locations such as zones, wards, and areas.
 
 Before analysis, the dataset was cleaned by handling missing values, removing duplicate records, converting date fields into the appropriate format, and creating additional analytical features such as Severity Score, Resolution Delay, Satisfaction Score, Month, and Year.
 
-KPI Definitions
+## KPI Definitions
 
 The dashboard was designed using several key performance indicators to measure city operational efficiency and service quality.
 
@@ -23,7 +24,9 @@ High Priority Complaints: Total number of complaints marked as High or Critical 
 Citizen Satisfaction Score: Estimated satisfaction score based on complaint resolution speed.
 Complaint Hotspot Zones: Zones generating the highest number of complaints.
 Department Performance Score: Performance metric based on complaint resolution efficiency.
-Dashboard Screenshots
+
+## Dashboard Screenshots
+
 Executive Overview
 
 This dashboard provides a high-level summary of city complaint operations. It includes Total Complaints, Resolution Rate, Average Resolution Time, Citizen Satisfaction Score, Monthly Complaint Trends, and Complaint Distribution.
@@ -34,51 +37,58 @@ Complaint Analysis
 
 This dashboard focuses on complaint categories and complaint patterns. It helps identify the most common complaint types, complaint priorities, and complaint status distribution.
 
-Insert Complaint Analysis Dashboard Screenshot Here
+<img width="1177" height="656" alt="COMPLAINT_ANALYSIS" src="https://github.com/user-attachments/assets/cd864a6c-0771-43b4-92a6-c497ea00e080" />
 
 Geographic Analysis
 
 This dashboard highlights complaint hotspots and geographic patterns. It helps identify zones and areas experiencing recurring civic issues.
 
-Insert Geographic Analysis Dashboard Screenshot Here
+<img width="1177" height="656" alt="COMPLAINT_ANALYSIS" src="https://github.com/user-attachments/assets/438eb3cd-78ab-4d0a-9e99-4681abff651a" />
+
 
 Service Performance
 
 This dashboard evaluates departmental efficiency and complaint resolution performance. It compares department performance, resolution times, and priority handling efficiency.
 
-Insert Service Performance Dashboard Screenshot Here
+<img width="1146" height="647" alt="SERVICE_PERFORMANCE" src="https://github.com/user-attachments/assets/b2ccc8b0-9a2b-4e88-b8df-e0d3f53c0ae1" />
 
-Key Findings
+
+## Key Findings
+
 Road Damage, Garbage Collection, and Water Supply complaints were among the most frequently reported issues.
 Certain zones consistently generated a higher number of complaints, indicating recurring infrastructure and service-related challenges.
 Departments responsible for infrastructure maintenance experienced comparatively longer complaint resolution times.
 High-priority complaints were generally resolved faster than low-priority complaints.
 Complaint volumes varied across different time periods, highlighting fluctuations in service demand.
 Faster complaint resolution contributed positively to citizen satisfaction levels.
-Recommendations
+
+## Recommendations
+
 Allocate additional resources to departments with high complaint volumes and longer resolution times.
 Prioritize infrastructure maintenance and improvement activities in complaint hotspot zones.
 Implement preventive maintenance programs for frequently occurring civic issues.
 Strengthen monitoring systems for unresolved high-priority complaints.
 Improve coordination among departments to reduce complaint resolution delays.
 Continuously track citizen satisfaction and service quality metrics to support performance improvement initiatives.
-Future Scope
+
+## Future Scope
+
 Develop a real-time complaint monitoring system for city authorities.
 Integrate GIS-based mapping for advanced geographic analysis.
 Implement predictive analytics to forecast future complaint trends.
 Build machine learning models to identify high-risk complaint zones.
 Develop automated alert systems for critical complaints requiring immediate attention.
 Incorporate citizen feedback and sentiment analysis for improved satisfaction measurement.
-Tools and Technologies Used
+
+## Tools and Technologies Used
+
 Python
 Pandas
-NumPy
 Matplotlib
 Seaborn
 Power BI
 Google Colab
-Jupyter Notebook
-GitHub
+
 ## Project Structure
 
 ```text

@@ -1,0 +1,6 @@
+Python
+Pandas
+Matplotlib
+Seaborn
+Power BI
+Google Colab

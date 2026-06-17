@@ -49,7 +49,6 @@ The main objectives of this project are:
 * Python
 * Google Colab
 * Pandas
-* NumPy
 * Matplotlib
 * Seaborn
 * Power BI

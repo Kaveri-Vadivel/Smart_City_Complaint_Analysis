@@ -1,5 +1,6 @@
 Python
 Pandas
+Numpy
 Matplotlib
 Seaborn
 Power BI
